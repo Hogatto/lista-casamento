@@ -14,14 +14,16 @@ body, html{
 }
 
 main{
+    margin: 20px auto;
     background-color: rgb(244, 244, 234);
     width: 300px;
-    margin: auto;
+
 }
 
-.foto{
-    background-image: url(Snapinsta.app_1080_310871865_669423401113488_5913981978504423602_n.jpg);
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
+img{
+    width: 30vw;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    left: 70px;
 }
