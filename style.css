@@ -15,11 +15,14 @@ body, html{
 }
 
 main{
-    margin: 20px auto;
-    padding: 10px;
-    background-color: rgb(244, 244, 234);
+    margin: auto;
+    padding-top: 10px;
+    background-image: linear-gradient(to top, rgb(228, 190, 190)
+    ,rgb(255, 255, 255)
+    );
     width: 300px;
     border-radius: 10px;
+    
 }
 
 main h1{
@@ -32,13 +35,21 @@ main h2{
     font-family: 'Dancing Script', cursive;
 }
 
+.presentes{
+    padding: 10px 0px 10px 0px ;
+}
+
+.presentes ul a{
+    color: black;
+}
+
 img{
     padding-top: 10px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: auto;
     border-radius: 50%;
     position: relative;
-    left: 42px;
+    left: 17px;
 
 }
